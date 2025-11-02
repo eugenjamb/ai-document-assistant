@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Virtual environments
+venv/
+env/
+
+# Data
+backend/data/
+*.csv
+
+# ML models
+*.pkl
+*.joblib
+
+# IDE settings
+.idea/
+.vscode/*
+!.vscode/settings.json
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
