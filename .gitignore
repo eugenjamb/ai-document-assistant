@@ -1,32 +1,30 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.sqlite3
-*.db
-
-# Virtual environments
+# --- Python / FastAPI backend ---
 venv/
-env/
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite3
+.env
+.env.*
+.DS_Store
 
-# Data
-backend/data/
-*.csv
+# Backend data
+backend/chroma_db/
+backend/uploaded_docs/
 
-# ML models
-*.pkl
-*.joblib
-
-# IDE settings
-.idea/
-.vscode/
-
-# Node / React
+# --- Node / React frontend ---
 frontend/node_modules/
 frontend/build/
-frontend/dist/
+frontend/.env
 
-# OS files
-.DS_Store
+# --- Logs & cache ---
+*.log
+*.cache
+__pycache__/
+*.swp
+
+# --- IDE & OS files ---
+.vscode/
+.idea/
 Thumbs.db
+.DS_Store
